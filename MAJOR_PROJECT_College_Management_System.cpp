@@ -32,7 +32,7 @@ class college { //parent class
     void default_data(string name, int id){
         login.push_back(student_data(name, id));
     }
-    void add_data(string name, int id){
+    void add_data(string name, int id){ //through this function we can add data to the database (vector)
         login.push_back(student_data(name, id));
         cout<<"THE FOLLOWING STUDENT HAS BEEN ADDED TO THE DATABASE.";
     }
